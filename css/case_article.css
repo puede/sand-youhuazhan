@@ -1,0 +1,608 @@
+        /*头部导航栏*/
+        
+        .alxc a {
+            color: #ffb200;
+        }
+        
+        @media(min-width:760px) {
+            .sy,
+            .gylm,
+            .cpzx,
+            .xwzx,
+            .lxwm {
+                border-top: 6px solid #fff;
+            }
+            .sy:hover,
+            .gylm:hover,
+            .cpzx:hover,
+            .xwzx:hover,
+            .lxwm:hover {
+                border-top: 6px solid #ffb200;
+            }
+            .alxc {
+                border-top: 6px solid #ffb200;
+            }
+        }
+        
+        .tel a,
+        .tel a:hover {
+            color: #fff;
+        }
+        
+        .zxx .zx {
+            padding-left: 0;
+        }
+        
+        .zx .zixun {
+            font-size: 20px;
+            padding-top: 3px;
+        }
+        
+        .phone {
+            font-size: 24px;
+        }
+        
+        .zxx .line-big .xl12,
+        .zxx .line-big .xm8 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .shouye_a,
+        .shouye a:hover,
+        a:hover {
+            color: #ffb200;
+        }
+        
+        .l_line,
+        .news_line {
+            width: 46px;
+            border: 1px solid #ffb200;
+        }
+        
+        .product_line {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .tp {
+            padding-top: 46px;
+            padding-bottom: 67px;
+        }
+        
+        .customer_feedback {
+            padding-bottom: 30px;
+        }
+        
+        .tp_1 p {
+            padding-top: 10px;
+            /* padding-bottom: 20px; */
+        }
+        /*客户现场*/
+        
+        .cus,
+        .sbei {
+            text-align: center;
+        }
+        
+        .psui .line-big .xl12,
+        .psui .line-big .xs6 {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        /*案例现场*/
+        
+        .case_center {
+            padding-top: 23px;
+            /* padding-bottom: 63px; */
+        }
+        
+        .case {
+            text-align: center;
+        }
+        
+        .sxi,
+        .hnan,
+        .gzhou,
+        .fjian,
+        .xzang,
+        .gxi,
+        .sdong,
+        .guizhou {
+            padding-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .gdong {
+            padding-top: 0;
+        }
+        
+        .first_line p,
+        .second_line p,
+        .third_line p,
+        .four_line p {
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .case img {
+            width: 100%;
+        }
+        
+        .gdong p {
+            padding-top: 0;
+            background-color: #ffb200;
+            color: #fff;
+        }
+        
+        .pagination li,
+        .pagination a {
+            border-radius: 0px;
+        }
+        
+        .pagination .active,
+        .pagination .active a,
+        .pagination a:hover {
+            border-radius: 0px;
+            background-color: #ffb200;
+            color: #fff;
+        }
+        /*热销设备*/
+        
+        .equipment {
+            padding-top: 10px;
+            text-align: center;
+        }
+        
+        .line-small .xs6 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        .shebei .line-big .xb3 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        /*新闻中心*/
+        
+        .news_1,
+        .news_2 {
+            background-color: #f5f5f5;
+        }
+        
+        .news li {
+            list-style: none;
+            line-height: 30px;
+            font-size: 14px;
+        }
+        
+        @media(max-width:300px) {
+            .news,
+            .facility {
+                margin-top: 10px;
+            }
+            .h2,
+            h2 {
+                padding-top: 10px;
+                font-size: 16px;
+            }
+            .h3,
+            h3 {
+                font-size: 15px;
+            }
+            .l_line,
+            .news_line {
+                margin-top: 6px;
+                margin-bottom: 10px;
+            }
+            .jieshao p {
+                line-height: 26px;
+                font-size: 14px;
+            }
+            .news_1,
+            .news_2 {
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .news li {
+                line-height: 24px;
+            }
+            .psui li {
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media(min-width:301px) {
+            .news,
+            .facility {
+                margin-top: 20px;
+            }
+            .news_1,
+            .news_2 {
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .l_line,
+            .news_line {
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+            .tel {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 20px;
+            }
+            .tel li {
+                padding: 10px 60px;
+                background-color: #ffb200;
+                color: #fff;
+            }
+            .psui li {
+                margin-bottom: 15px;
+            }
+        }
+        
+        @media (max-width:450px) {
+            .banner_d,
+            .yinying {
+                display: none;
+            }
+            .tel li {
+                padding: 4px 60px;
+                background-color: #ffb200;
+                color: #fff;
+            }
+            .product_line p {
+                line-height: 30px;
+            }
+            .phone {
+                font-size: 20px;
+            }
+            .current_occa h2 {
+                padding-top: 20px;
+            }
+            .shebei {
+                padding-top: 50px;
+            }
+        }
+        
+        @media(min-width:760px) {
+            .banner .p1 {
+                font-size: 22px;
+                color: #fff;
+            }
+            .banner .p2 {
+                font-size: 15px;
+                padding-top: 6px
+            }
+            .news,
+            .facility {
+                margin-top: 30px;
+            }
+            .h2,
+            h2 {
+                font-size: 26px;
+                padding-top: 20px;
+            }
+            .news_1,
+            .news_2 {
+                padding: 20px;
+            }
+        }
+        
+        @media(max-width:999px) {
+            .tbu {
+                background: url(../img/case/banner.jpg) no-repeat;
+                height: 100px;
+                width: 100%;
+                background-size: 100% 100%;
+            }
+        }
+        
+        @media(min-width:1000px) {
+            .tbu {
+                background: url(../img/case/banner.jpg) no-repeat;
+                height: 260px;
+                width: 100%;
+                background-size: 100% 100%;
+            }
+            .ca .ca_r {
+                padding-left: 20px;
+            }
+        }
+        
+        @media(max-width:1000px) {
+            .posui {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+        
+        @media(min-width:1000px) {
+            .banner .p1 {
+                font-size: 32px;
+                color: #fff;
+            }
+            .banner .p2 {
+                font-size: 20px;
+                padding-top: 18px
+            }
+            .news,
+            .facility {
+                padding-top: 10px;
+            }
+            .h2,
+            h2 {
+                font-size: 32px;
+                padding-top: 20px;
+                font-weight: normal;
+            }
+            .re_fa {
+                padding-top: 0;
+                font-size: 32px;
+                font-weight: normal
+            }
+            .h3,
+            h3 {
+                font-size: 18px;
+                font-weight: normal;
+            }
+            .l_line {
+                margin-top: 10px;
+                margin-bottom: 42px;
+            }
+            .news_line {
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            .news_1,
+            .news_2 {
+                padding: 34px;
+            }
+            .posui {
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+            .news_1,
+            .news_2 {
+                padding: 34px;
+            }
+            .tel {
+                padding-top: 40px;
+                padding-bottom: 35px;
+                font-size: 28px;
+            }
+            .tel li {
+                padding: 10px 60px;
+                background-color: #ffb200;
+                color: #fff;
+            }
+        }
+        
+        @media(max-width:1199px) {
+            .product_1,
+            .product_2,
+            .product_3,
+            .product_4 {
+                height: 300px;
+                /* padding-top: 20px; */
+            }
+        }
+        
+        @media(min-width:1200px) {
+            .equipment .typ {
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+            .product_1,
+            .product_2,
+            .product_3,
+            .product_4 {
+                padding-top: 60px;
+            }
+            .product_1 p,
+            .product_2 p,
+            .product_3 p,
+            .product_4 p {
+                padding-top: 10px;
+            }
+            .p_hide {
+                display: none;
+                padding-bottom: 10px;
+            }
+            .list-box .cont-1,
+            .list-box .cont-2,
+            .list-box .cont-3,
+            .list-box .cont-4 {
+                height: 300px;
+            }
+            .cus img {
+                width: 100%;
+            }
+            .active {
+                padding-top: 0;
+            }
+            .active .p_hide {
+                display: block;
+                padding-bottom: 20px;
+            }
+            .active p {
+                color: #fff;
+                background-color: #ffb200;
+            }
+            .active .a_1,
+            .active .a_2,
+            .active .a_3,
+            .active .a_4 {
+                border: 1px solid #ffb200;
+            }
+            .active .p_hide,
+            .active .case_hide {
+                display: block;
+            }
+            .active p {
+                color: #fff;
+                background-color: #ffb200;
+            }
+            .active .ww {
+                padding-top: 0;
+            }
+        }
+        
+        @media(max-width:999px) {
+            .p_hide {
+                display: none;
+            }
+        }
+        
+        @media (max-width:449px) {
+            .banner_d,
+            .yinying {
+                display: none;
+            }
+        }
+        
+        @media(min-width:450px) and (max-width:759px) {
+            .banner_d {
+                padding-left: 22px;
+                padding-top: 20px;
+            }
+            .yinying {
+                height: 100px;
+                width: 280px;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            .banner .p1 {
+                font-size: 22px;
+                color: #fff;
+            }
+            .banner .p2 {
+                font-size: 15px;
+                padding-top: 6px;
+                color: #fff;
+            }
+        }
+        
+        @media(min-width:760px) and (max-width:999px) {
+            .banner_d {
+                padding-left: 16px;
+                padding-top: 20px;
+            }
+            .yinying {
+                height: 100px;
+                width: 250px;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            .banner .p1 {
+                font-size: 22px;
+                color: #fff;
+            }
+            .banner .p2 {
+                font-size: 15px;
+                padding-top: 6px;
+                color: #fff;
+            }
+        }
+        
+        @media(min-width:1000px) {
+            .banner {
+                position: relative;
+            }
+            .banner_d {
+                padding-left: 38px;
+                padding-top: 80px;
+            }
+            .yinying {
+                width: 441px;
+                height: 260px;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            .banner .p1 {
+                font-size: 32px;
+                color: #fff;
+            }
+            .banner .p2 {
+                font-size: 20px;
+                padding-top: 18px;
+                color: #fff;
+            }
+        }
+        
+        .posui li {
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .selected-inline li {
+            margin-right: 0;
+        }
+        
+        @media (max-width:449px) {
+            .banner_d,
+            .yinying {
+                display: none;
+            }
+            .posui li {
+                padding-bottom: 10px;
+                font-size: 14px;
+                width: 50%;
+                float: left;
+            }
+        }
+        /*相关设备*/
+        
+        .posui {
+            padding-bottom: 10px;
+        }
+        
+        .psui a:hover {
+            background-color: #ffb200;
+            transition: all 0.2s;
+        }
+        
+        .psui a:hover {
+            border: 1px solid #e3e3e3;
+            color: #fff;
+        }
+        
+        .posui li {
+            list-style: none;
+            text-align: center;
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .posui li a {
+            border: 1px solid #e3e3e3;
+            padding: 5px 15px;
+            border-radius: 10px;
+        }
+        
+        @media(max-width:759px) {
+            .psui li {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media (max-width:449px) {
+            .banner_d,
+            .yinying {
+                display: none;
+            }
+            .posui li {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+        }
+        
+        @media(min-width:1000px) {
+            .posui {
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+        }

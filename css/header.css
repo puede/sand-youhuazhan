@@ -1,0 +1,110 @@
+     .nav ul a {
+         padding-top: 0;
+         padding-bottom: 0;
+     }
+     /* 头部header */
+     
+     .doc-logo {
+         padding-top: 6px;
+     }
+     /* banner */
+     
+     .banner img {
+         margin: 0 auto;
+         display: block;
+         max-width: 100%;
+     }
+     /* 公共头部 */
+     
+     @media(max-width:300px) {
+         .doc-naver a .hder {
+             display: none;
+         }
+         .doc-naver a .logo {
+             width: 36px;
+         }
+         .margin-top {
+             margin-top: 1px;
+         }
+         .nav a:hover {
+             color: #ffb200;
+         }
+     }
+     
+     @media(min-width:301px) {
+         .margin-top {
+             margin-top: 30px;
+         }
+         .nav a:hover {
+             color: #ffb200;
+         }
+     }
+     
+     @media(max-width:760px) {
+         .doc-naver a .hder {
+             /* display: none; */
+         }
+     }
+     
+     @media(min-width:760px) {
+         .doc-naver a .logo {
+             width: 38%;
+         }
+         .doc-naver a .hder {
+             width: 58%;
+             padding-bottom: 2px;
+         }
+         .nav a:hover {
+             color: #ffb200;
+         }
+         .padding-small-top {
+             padding-left: 100px;
+         }
+         .padding-small-top {
+             padding-top: 0;
+         }
+         .nav-inline li a {
+             font-size: 15px;
+             padding-top: 20px;
+             padding-left: 10px;
+             padding-right: 10px;
+         }
+     }
+     
+     @media(min-width:1000px) {
+         .doc-naver a .logo {
+             width: 26%;
+         }
+         .doc-naver a .hder {
+             width: 46%;
+         }
+         .padding-small-top {
+             padding-left: 2px;
+         }
+         .nav-inline li a {
+             font-size: 18px;
+             display: block;
+             padding-top: 30px;
+             padding-left: 24px;
+             padding-right: 24px;
+         }
+     }
+     
+     @media(min-width:1200px) {
+         .doc-naver a .logo {
+             width: 20%;
+         }
+         .doc-naver a .hder {
+             width: 43.5%;
+         }
+         .margin-top {
+             margin-top: 10px;
+         }
+         .nav-inline li a {
+             font-size: 18px;
+             display: block;
+             padding-top: 30px;
+             padding-left: 25px;
+             padding-right: 25px;
+         }
+     }
